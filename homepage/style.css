@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+/*Header*/
+.jumbotron{
+background:#e3dbd9;
+color:#bf768b;
+margin-left:-30px;
+margin-right:-40px;
+padding: 10px 10px 20px 10px;
+}
+
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news-header{
+    color:#bf768b;
+    background-color:#e3dbd9;
+}
+.news-text{
+    color:#bf768b;
+}
+.hottest-movie{
+    color:#bf768b;
+    background-color:#e3dbd9;
+    margin-left:-30px;
+margin-right:-40px;
+padding: 10px 10px 20px 10px;
+}
+
+.poster-rogue{
+
+    justify-content: center;
+}
+.poster-rogue a{
+color:#bf768b;
+
+}
+
+
+.poster-rogue img{
+    width:20%;
+    height:auto;
+
+}
+
+.hottest-actor{
+    color:#bf768b;
+    background-color:#e3dbd9;
+    margin-left:-30px;
+margin-right:-40px;
+padding: 10px 10px 20px 10px;
+}
+
+.poster-felicity{
+justify-content: center;
+background-color:#e3dbd9;
+
+}
+.poster-felicity a{
+    color:#bf768b;
+
+}
+
+.poster-felicity img{
+    width:20%;
+    height:auto;
+
+}
+
+/*actor.html styling starts here****************/
+section.actor-intro{
+    color:#bf768b;
+    background-color:f5f6fc;
+}
+
+section.actor-intro h2{
+font-size: 20px;
+}
+
+section.actor-intro p{
+font-size: 15px;
+}
+
+section.actor-bio h2{
+font-weight: bold;
+color:#bf768b
+
+}
+section.actor-bio p{
+color:#bf768b;
+font-size: 15px;
+}
+
+section.film-title h2{
+    color:#bf768b;
+    font-size: 15px;
+}
+
+section.film-list{
+    color:#bf768b;
+    font-size: 15px;
+    display: flex;
+}
+
+section.film-list li{
+text-align: center;
+list-style: none;
+}
+
+section.film-list img{
+    width:20%;
+    height:auto;
+    text-align: center;
+}
+
+
+/*movie detail*/
+section.movie-intro{
+    background-color:#e3dbd9;
+}
+section.movie-intro h2{
+
+color:#bf768b;
+font-weight:bold;
+}
+
+section.movie-intro p{
+    color:#bf768b;
+}
+nav.movie-casts{
+    justify-content: flex-end;
+align-items: center;
+}
+nav a{
+    text-decoration-line: none;
+
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    padding:.5em;
+   justify-content: flex-start;
+}
+nav li{
+
+
+
+}
+nav ul img{
+    width:20%;
+    height:auto;
+}
