@@ -1,0 +1,96 @@
+* ::after, ::before{
+    box-sizing: inherit;
+}
+
+
+
+html {
+    box-sizing: border-box;
+  }
+
+body{
+    padding:0;
+    margin:0;
+    font-size:20px;
+}
+
+
+/*Header*/
+header{
+font-family: 'Cabin', sans-serif;
+background-color:#d2f4ef;
+}
+
+div.intro{
+
+color:#1a7668;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+
+}
+div.news-text{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:20px;
+    margin-right:auto;
+}
+
+div.news-text p{
+    color:#1a7668;
+    padding-right:30px;
+    padding-left:30px;
+    margin-left :auto;
+    margin-right:auto;
+}
+div.news-text h2{
+    color:#1a7668;
+}
+
+div.hottest-movie {
+    color:#1a7668;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:20px;
+    margin-left :auto;
+    margin-right:auto;
+    background-color:#d2f4ef;
+    text-align: center;
+}
+
+div.poster-rogue a{
+    font-size:30px;
+    text-decoration: none;
+    color:#1a7668;
+}
+div.poster-rogue a:hover
+{
+    color:#63e75d;
+    background-color:gray;
+}
+
+div.poster-rogue img{
+width:30%;
+height:auto;
+}
+
+div.poster-felicity img{
+    width:30%;
+    height:auto;
+
+    }
+
+    div.poster-felicity a{
+       font-size:30px;
+       text-decoration: none;
+       color:#1a7668;
+       }
+       div.poster-felicity a:hover{
+           color:#63e75d;
+           background-color: gray;
+       }
+div.poster-felicity p{
+    font-size:20px;
+}
