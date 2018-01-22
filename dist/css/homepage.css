@@ -1,0 +1,271 @@
+* ::after,
+::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-family: 'Andada', serif; }
+
+body {
+  margin: auto;
+  font-size: 16px;
+  background-color: #211f1f;
+  color: #802209;
+  margin-left: auto;
+  margin-right: auto; }
+
+h1 h2 p {
+  font-family: 'Andada', serif;
+  color: #802209; }
+
+/*star rating*/
+.checked {
+  color: orange; }
+
+/*Header*/
+header {
+  font-family: 'Andada', serif;
+  color: #802209;
+  font-weight: bold;
+  font-size: 16px; }
+
+div.intro h1 {
+  padding-top: 10px;
+  text-align: center; }
+
+.banner img {
+  width: 95%;
+  height: auto;
+  margin-left: 30px; }
+
+div.news-text {
+  font-family: 'Andada', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: auto; }
+
+div.news-text p {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+div.news-text a {
+  text-decoration: none;
+  color: #802209; }
+
+div.news-text a:hover {
+  background-color: #CEAF51;
+  color: #6D5F44; }
+
+div.hottest-movie {
+  font-family: 'Andada', serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 40px;
+  text-align: center; }
+
+div.poster-rogue a {
+  font-family: 'Andada', serif;
+  text-decoration: none;
+  color: #802209;
+  font-size: 22px; }
+
+div.poster-rogue a:hover {
+  background-color: #CEAF51;
+  color: #6D5F44; }
+
+div.poster-rogue img {
+  width: 30%;
+  height: auto;
+  padding-left: 20px;
+  text-align: center; }
+
+div.hottest-actor {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: center; }
+
+div.poster-felicity img {
+  width: 30%;
+  height: auto;
+  padding-left: 20px;
+  text-align: center; }
+
+div.poster-felicity a {
+  font-family: 'Andada', serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #802209; }
+
+div.poster-felicity a:hover {
+  background-color: #CEAF51;
+  color: #6D5F44; }
+
+div.summary {
+  font-family: 'Andada', serif; }
+
+div.summary h2 {
+  margin-top: 40px;
+  padding-left: 20px;
+  color: #802209; }
+
+div.summary p {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+/**********ACTOR DETAIL PAGE*************/
+.actor-detail h1 {
+  text-align: center;
+  color: #802209;
+  font-family: 'Andada', serif; }
+
+.film-intro h2 {
+  color: #802209; }
+
+.film-intro p {
+  font-size: 16px;
+  color: #802209; }
+
+div.film-intro {
+  font-family: 'Andada', serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px; }
+
+div.container {
+  margin: auto;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+div.film {
+  font-family: 'Andada', serif;
+  display: flex;
+  justify-content: space-between; }
+
+.film p {
+  font-size: 16px;
+  color: #802209; }
+
+.picture p {
+  font-family: sans-serif;
+  color: #802209;
+  text-align: center;
+  flex-wrap: wrap; }
+
+div.picture {
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.picture img {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.picture a {
+  font-family: 'Andada', serif;
+  padding-top: 20px;
+  text-decoration: none;
+  color: #802209;
+  font-size: 20px; }
+
+.picture a:hover {
+  background-color: #CEAF51;
+  color: #6D5F44; }
+
+.navbar {
+  width: 100%; }
+
+/********MOVIE DETAIL************/
+.movie h1 {
+  text-align: center;
+  color: #802209;
+  font-family: 'Andada', serif; }
+
+div.movie-intro {
+  font-family: 'Andada', serif;
+  color: #802209;
+  font-size: 16px;
+  margin: auto; }
+
+div.movie-intro h2 {
+  font-family: 'Andada', serif;
+  color: #802209; }
+
+div.movie-intro {
+  font-family: 'Andada', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px; }
+
+div.casts {
+  font-family: 'Andada', serif;
+  color: #802209;
+  margin: auto; }
+
+div.casts h2 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.movie-casts a:hover {
+  background-color: #CEAF51;
+  color: #6D5F44; }
+
+.movie-casts a {
+  text-decoration: none;
+  color: #802209;
+  font-size: 20px;
+  font-family: 'Andada', serif; }
+
+.movie-casts {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  margin: auto; }
+
+.images p {
+  font-size: 16px;
+  color: #802209;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+
+.images img {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  color: #802209;
+  border-radius: 50%; }
+
+div.reviews {
+  font-family: 'Andada', serif;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #802209; }
+
+div.reviews p {
+  font-size: 16px; }
+
+/*diego*/
+div.actor-images .images img {
+  margin: 0; }
